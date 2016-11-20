@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+	<row>
+		<button icon="power" ontap="cmd_power" />
+        <button text="Input" ontap="cmd_input" />
+	</row>
+	<row>
+        
+        <button icon="vdown" ontap="cmd_vol_m" />
+        <button icon="vmute" ontap="cmd_mute" />
+        <button icon="vup" ontap="cmd_vol_p" />
+    </row>
+    <row> 
+        <button text="Level" ontap="cmd_level" />
+        <button text="Effect" ontap="effect" />
+	</row>
+</layout>
