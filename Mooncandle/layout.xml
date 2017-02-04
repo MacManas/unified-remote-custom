@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+	<row>
+		<button icon="On" ontap="cmd_on" />
+        <button text="Off" ontap="cmd_off" />
+	</row>
+	<row>
+        
+        <button icon="4h" ontap="cmd_4h" />
+        <button icon="8h" ontap="cmd_8h" />
+    </row>
+    <row> 
+        <button text="Candle" ontap="cmd_candle" />
+        <button text="Light" ontap="cmd_light" />
+	</row>
+    <row> 
+        <button text="Low" ontap="cmd_low" />
+        <button text="High" ontap="cmd_high" />
+	</row>
+</layout>
