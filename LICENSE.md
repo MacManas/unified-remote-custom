@@ -1,3 +1,6 @@
+SOFTWARE
+========
+
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
@@ -22,3 +25,12 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org>
+
+
+LOGOS AND IMAGES
+================
+
+All product, logos and company names are trademarks™ or registered® trademarks 
+of their respective holders. Use of them does not imply any affiliation with 
+or endorsement by them. If you are seeking to use them publicly you must seek
+aproval from their respective holders.
