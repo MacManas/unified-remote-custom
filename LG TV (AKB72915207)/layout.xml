@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout onLaunch="launch" onVolumeUp="volume_up" onVolumeDown="volume_down" color="#474649">
+    <grid>
+        <row weight="1">
+            <button icon="power" onTap="cmd_power" />
+            <button text="AV Mode" onTap="cmd_avmode" />
+            <button text="Input" onTap="cmd_input" />
+            <button text="TV/Radio" onTap="cmd_tv_rad" />
+        </row>
+        <row weight="5">
+        <tabs index="1" weight="4">
+            <tab text="Menu">
+                <row>
+                    <button text="Menu" onTap="cmd_menu" />
+                    <button icon="up" onTap="cmd_arrow_up" />
+                    <button text="Guide" onTap="cmd_guide" />
+                </row>
+               <row>
+                    <button icon="left" onTap="cmd_arrow_left" />
+                    <button icon="select" onTap="cmd_select" />
+                    <button icon="right" onTap="cmd_arrow_right" />
+                </row>
+                <row>
+                    <button icon="back" onTap="cmd_back" />
+                    <button icon="down" onTap="cmd_arrow_down" />
+                    <button icon="docclose" onTap="cmd_exit" />
+                </row>
+            </tab>
+            <tab text="Basic">
+                <row>
+                    <button icon="vdown" onTap="cmd_v_down" />
+                    <button icon="vmute" onTap="cmd_v_mute" />
+                    <button icon="vup" onTap="cmd_v_up" />
+                </row>
+                <row>
+                    <button text="Ch. -" onTap="cmd_ch_down" />
+                    <button text="Fav" onTap="cmd_fav" />
+                    <button text="Ch. +" onTap="cmd_ch_up" />
+                </row>
+            </tab>
+            <tab text="Numeric">
+                <row>
+                    <button text="1" onTap="cmd_num_1" />
+                    <button text="2" onTap="cmd_num_2" />
+                    <button text="3" onTap="cmd_num_3" />
+                </row>
+                <row>
+                    <button text="4" onTap="cmd_num_4" />
+                    <button text="5" onTap="cmd_num_5" />
+                    <button text="6" onTap="cmd_num_6" />
+                </row>
+                <row>
+                    <button text="7" onTap="cmd_num_7" />
+                    <button text="8" onTap="cmd_num_8" />
+                    <button text="9" onTap="cmd_num_9" />
+                </row>
+                <row>
+                    <button text="List" onTap="cmd_list" />
+                    <button text="0" onTap="cmd_num_0" />
+                    <button text="Q.View" onTap="cmd_q_view" />
+                </row>
+            </tab>
+        </tabs>
+        </row>
+    </grid>
+</layout>
